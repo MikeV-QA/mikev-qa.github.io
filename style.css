@@ -7,7 +7,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+a:hover {
+  background: #d2ceeb3d; 
+  color: #000000;
+ } 
 .header {
   margin: 40px 0;
 }
@@ -81,7 +84,7 @@ body {
 .linsk__link,
 .links__link:visited {
   text-decoration: none;
-  color: #e25d58;
+  color: #f07d11e5;
 }
 
 .links__title {
@@ -108,4 +111,7 @@ footer {
 
   color: #311e1e;
   text-decoration: none;
+}
+.header__avatar:hover {
+  border: 1px solid #f07d11e5;
 }
